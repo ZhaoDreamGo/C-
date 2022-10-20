@@ -12,9 +12,6 @@ BiTree Solution::create() {
     if (value == "#") {
         return NULL;
     }
-    else if (value == "-Q") {
-
-    }
     else {
         //递归创建左右子树，使用size记录数的节点
         size++;
